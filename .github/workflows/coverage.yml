@@ -20,3 +20,6 @@ jobs:
       - name: Gradle tasks
         shell: bash
         run: ./gradlew tasks --all
+      - name: Gradle generate code coverage report
+        shell: bash
+        run: ./gradlew createReleaseUnitTestCoverageReport
