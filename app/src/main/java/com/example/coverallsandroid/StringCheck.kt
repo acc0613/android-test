@@ -26,4 +26,8 @@ class StringCheck {
     fun removeWhitespace(input: String): String {
         return input.replace(" ", "")
     }
+
+    fun removeWhitespaceStr(input: String): String {
+        return input.replace(" ", "")
+    }
 }
