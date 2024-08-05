@@ -30,8 +30,8 @@ jobs:
           compare-ref: main
           file: /Users/runner/work/android-test/android-test/app/build/reports/coverage/test/release/report.xml
           format: jacoco
-      - name: Coveralls Finished
-        id: cv-finished
-        uses: coverallsapp/github-action@v2
-        with:
-          parallel-finished: true
+      # - name: Coveralls Finished
+      #   id: cv-finished
+      #   uses: coverallsapp/github-action@v2
+      #   with:
+      #     parallel-finished: true
