@@ -22,3 +22,6 @@ jobs:
           cache: 'gradle'
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
+      - name: Gradle tasks
+        shell: bash
+        run: ./gradlew tasks --all
