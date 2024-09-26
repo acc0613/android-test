@@ -25,3 +25,6 @@ jobs:
       - name: Gradle tasks
         shell: bash
         run: ./gradlew tasks --all
+      - name: Gradle bundle
+        shell: bash
+        run: ./gradlew bundleRelease
