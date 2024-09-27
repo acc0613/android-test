@@ -30,20 +30,5 @@ jobs:
       - name: Gradle bundle
         shell: bash
         run: ./gradlew bundleRelease
-      # - name: Gradle generate code coverage report
-      #   shell: bash
-      #   run: ./gradlew createReleaseUnitTestCoverageReport
-      # - name: Coveralls Parallel
-      #   id: cv-parallel
-      #   uses: coverallsapp/github-action@v2
-      #   with:
-      #     compare-ref: main
-      #     file: /Users/runner/work/android-test/android-test/app/build/reports/coverage/test/release/report.xml
-      #     format: jacoco
-      # # - name: Coveralls Finished
-      # #   id: cv-finished
-      # #   uses: coverallsapp/github-action@v2
-      # #   with:
-      # #     parallel-finished: true
 
 # comment
