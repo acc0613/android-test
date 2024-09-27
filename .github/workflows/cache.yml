@@ -28,3 +28,5 @@ jobs:
       - name: Gradle bundle
         shell: bash
         run: ./gradlew bundleRelease
+
+# comment
